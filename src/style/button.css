@@ -1,21 +1,21 @@
 @layer components {
   .btn-solid {
     @apply px-3 py-2 rounded-md;
-    @apply bg-orange-500 text-white  uppercase font-bold;
-    @apply hover:bg-orange-700 focus:bg-orange-700;
+    @apply bg-purple-500 text-white  uppercase font-semibold;
+    @apply hover:bg-purple-700 focus:bg-purple-700;
   }
   .btn-outline {
     @apply px-3 py-2 rounded-md;
-    @apply bg-orange-500 bg-opacity-25 text-black  uppercase font-bold;
+    @apply bg-purple-500 bg-opacity-25 text-white  uppercase font-bold;
     @apply hover:bg-opacity-50 focus:bg-opacity-50;
-    @apply border border-orange-500;
+    @apply border bg-purple-500;
     @apply transition-all;
   }
   .btn-ghost {
     @apply px-3 py-2 rounded-md;
-    @apply bg-orange-500 bg-opacity-0 text-black  uppercase font-bold;
+    @apply bg-purple-500 bg-opacity-0 text-white  uppercase font-bold;
     @apply hover:bg-opacity-50 focus:bg-opacity-50;
-    @apply border border-orange-500;
+    @apply border bg-purple-500;
     @apply transition-all;
   }
 }

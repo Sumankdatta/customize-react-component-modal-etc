@@ -25,6 +25,7 @@ const Button = forwardRef<TRef, TButton>(
           return "btn-solid";
       }
     };
+
     return (
       <div>
         <button
